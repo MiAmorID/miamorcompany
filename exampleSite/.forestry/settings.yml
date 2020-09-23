@@ -5,12 +5,31 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Homepage
+- type: document
+  path: exampleSite/data/en/homepage.yml
+  label: Homepage Data (en)
+  match: "**/*"
+- type: document
+  path: exampleSite/data/fr/homepage.yml
+  label: Homepage Data (fr)
+  match: "**/*"
+- type: heading
   label: Blog Post
+- type: document
+  path: exampleSite/content/english/blog/index.md
+  label: Blog Page (en)
+  match: "**/*"
+- type: document
+  path: exampleSite/content/french/blog/index.md
+  label: Blog Page (fr)
+  match: "**/*"
 - type: directory
   path: exampleSite/content/english/blog
   label: Post (en)
   create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - post
 - type: directory
@@ -18,34 +37,31 @@ sections:
   label: Post (fr)
   create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - post
 - type: heading
-  label: Author
+  label: FAQ
 - type: directory
-  path: exampleSite/content/english/author
-  label: Author (en)
+  path: exampleSite/content/english/faq
+  label: FAQ (en)
   create: documents
   match: "**/*"
-  templates:
-  - author
 - type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
+  path: exampleSite/content/french/faq
+  label: FAQ (fr)
   create: documents
   match: "**/*"
-  templates:
-  - author
 - type: heading
-  label: Portfolio
+  label: Pricing
 - type: directory
-  path: exampleSite/content/english/portfolio
-  label: Portfolio (en)
+  path: exampleSite/content/english/pricing
+  label: Pricing (en)
   create: documents
   match: "**/*"
 - type: directory
-  path: exampleSite/content/french/portfolio
-  label: Project (fr)
+  path: exampleSite/content/french/pricing
+  label: Pricing (fr)
   create: documents
   match: "**/*"
 - type: heading
@@ -61,7 +77,7 @@ sections:
   create: all
   match: "**/*"
 - type: heading
-  label: Others Pages
+  label: About
 - type: directory
   path: exampleSite/content/english/about
   label: About (en)
@@ -72,6 +88,8 @@ sections:
   label: About (fr)
   create: none
   match: "*"
+- type: heading
+  label: Contact
 - type: directory
   path: exampleSite/content/english/contact
   label: Contact (en)
@@ -82,20 +100,32 @@ sections:
   label: Contact (fr)
   create: none
   match: "*"
+- type: heading
+  label: Service
 - type: directory
-  path: exampleSite/content/english/pages
-  label: Created Pages (en)
+  path: exampleSite/content/english/service
+  label: Service (en)
   create: documents
   match: "**/*"
-  templates:
-  - new-page
 - type: directory
-  path: exampleSite/content/french/pages
-  label: Created Pages (fr)
+  path: exampleSite/content/french/service
+  label: Service (fr)
   create: all
   match: "**/*"
-  templates:
-  - new-page
+- type: heading
+  label: Team
+- type: directory
+  path: exampleSite/content/english/team
+  label: Team (en)
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/french/team
+  label: Team (fr)
+  create: all
+  match: "**/*"
+- type: heading
+  label: All Pages
 - type: directory
   path: exampleSite/content/english
   label: All Pages (en)
@@ -111,30 +141,16 @@ sections:
   templates:
   - new-page
 - type: heading
-  label: Data
-- type: directory
-  path: exampleSite/data/en
-  label: Data (en)
-  create: all
-  match: "**/*"
-- type: directory
-  path: exampleSite/data/fr
-  label: Data (fr)
-  create: all
-  match: "**/*"
+  label: Configuration
 - type: directory
   path: exampleSite/i18n
   label: i18n
   create: documents
   match: "**/*"
-- type: heading
+- type: document
+  path: exampleSite/config.toml
   label: Configuration
-- type: directory
-  path: exampleSite
-  label: Configuration
-  create: all
-  match: "*.toml"
-  new_doc_ext: toml
+  match: "**/*"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
