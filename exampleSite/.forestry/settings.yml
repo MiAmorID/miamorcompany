@@ -9,21 +9,17 @@ sections:
 - type: document
   path: exampleSite/data/en/homepage.yml
   label: Homepage Data (en)
-  match: "**/*"
 - type: document
   path: exampleSite/data/fr/homepage.yml
   label: Homepage Data (fr)
-  match: "**/*"
 - type: heading
   label: Blog Post
 - type: document
-  path: exampleSite/content/english/blog/index.md
+  path: exampleSite/content/english/blog/_index.md
   label: Blog Page (en)
-  match: "**/*"
 - type: document
-  path: exampleSite/content/french/blog/index.md
+  path: exampleSite/content/french/blog/_index.md
   label: Blog Page (fr)
-  match: "**/*"
 - type: directory
   path: exampleSite/content/english/blog
   label: Post (en)
@@ -150,7 +146,6 @@ sections:
 - type: document
   path: exampleSite/config.toml
   label: Configuration
-  match: "**/*"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
