@@ -19,7 +19,7 @@ fields:
   label: author_profile
 - type: text
   name: description
-  label: description
+  label: Meta description
 - type: list
   name: categories
   label: categories
