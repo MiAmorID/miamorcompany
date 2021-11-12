@@ -1,4 +1,4 @@
-baseURL = "http://miamoridcompany.netlify.com"
+baseURL = "http://miamoridcompany.netlify.app"
 disableLanguages = []
 disqusShortname = "#"
 googleAnalytics = ""
