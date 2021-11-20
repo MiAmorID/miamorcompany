@@ -43,7 +43,7 @@ homepage_tab:
     for building a great product together.
   tablist:
   - name: Customer First
-    title: Task **Management**
+    title: Customer **First**
     image: images/screenshots/how-it-works-1.jpg
     content: We’re customer first and see humans behind the numbers.
     button:
