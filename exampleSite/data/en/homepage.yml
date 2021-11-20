@@ -50,7 +50,7 @@ homepage_tab:
       enable: true
       label: View More
       link: how-it-works
-  - name: Humble
+  - name: Humble at heart
     title: Humble **at heart**
     image: images/screenshots/how-it-works-1.jpg
     content: We keep our egos low and use user insights to make great decisions.
