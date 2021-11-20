@@ -77,7 +77,7 @@ homepage_tab:
       link: how-it-works
   - name: Curious minds
     title: Curious **minds**
-    image: images/screenshots/how-it-works-1.jpg
+    image: images/screenshots/how-it-works-5.jpg
     content: Our curiosity helps us view tough situations more creatively.
     button:
       enable: true
