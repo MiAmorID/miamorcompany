@@ -50,12 +50,10 @@ homepage_tab:
       enable: true
       label: View More
       link: how-it-works
-  - name: Built In Chat
-    title: Built In **Chat**
+  - name: Human
+    title: Human **Interaction**
     image: images/screenshots/03.png
-    content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero
-      eos et accusam et justo duo dolores et ea rebum satet
+    content: We believe in diverse teams and candid interaction.
     button:
       enable: true
       label: View More
