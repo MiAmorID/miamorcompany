@@ -74,6 +74,11 @@ homepage_tab:
       enable: true
       label: View More
       link: how-it-works
+  - name: Curious
+    title: Curious **minds**
+    image: images/screenshots/how-it-works-1.jpg
+    content: Our curiosity helps us view tough situations more creatively.
+    button: ''
 tools:
   enable: true
   title: Integrate the **tools you already use**
