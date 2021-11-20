@@ -58,7 +58,7 @@ homepage_tab:
       enable: true
       label: View More
       link: how-it-works
-  - name: Human
+  - name: Human interaction
     title: Human **Interaction**
     image: images/screenshots/03.png
     content: We believe in diverse teams and candid interactions even through multiple
