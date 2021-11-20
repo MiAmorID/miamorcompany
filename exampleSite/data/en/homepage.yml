@@ -53,7 +53,7 @@ homepage_tab:
   - name: Humble
     title: Humble **at heart**
     image: images/screenshots/how-it-works-1.jpg
-    content: We keep our egos low and use user insights to make decisions.
+    content: We keep our egos low and use user insights to make great decisions.
     button:
       enable: true
       label: View More
