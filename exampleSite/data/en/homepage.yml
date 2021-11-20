@@ -50,6 +50,14 @@ homepage_tab:
       enable: true
       label: View More
       link: how-it-works
+  - name: Humble
+    title: Humble **at heart**
+    image: images/screenshots/how-it-works-1.jpg
+    content: We keep our egos low and use user insights to make decisions.
+    button:
+      enable: true
+      label: View More
+      link: how-it-works
   - name: Human
     title: Human **Interaction**
     image: images/screenshots/03.png
@@ -63,14 +71,6 @@ homepage_tab:
     title: Hungry for **knowledge**
     image: images/screenshots/04.png
     content: We make bold decisions, dare to dream big and think like co-owners.
-    button:
-      enable: true
-      label: View More
-      link: how-it-works
-  - name: Humble
-    title: Humble **at heart**
-    image: images/screenshots/how-it-works-1.jpg
-    content: We keep our egos low and use user insights to make decisions.
     button:
       enable: true
       label: View More
