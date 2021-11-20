@@ -38,16 +38,14 @@ clients_logo_slider:
   - images/brands/06-colored.png
 homepage_tab:
   enable: true
-  title: How **it Works**
-  content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.
+  title: What we **value**
+  content: We live and breathe our 6 core values. They’re the (not so) secret sauce
+    for building a great product together.
   tablist:
-  - name: Task Management
+  - name: Customer First
     title: Task **Management**
     image: images/screenshots/how-it-works-1.jpg
-    content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero
-      eos et accusam et justo duo dolores et ea rebum satet
+    content: We’re customer first and see humans behind the numbers.
     button:
       enable: true
       label: View More
